@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <title>Pokemon Search App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Pokemon Search App</h1>
+    <div id="container">
+      <label for="search-input">Enter Pokemon Name or ID: </label>
+      <div id="search">
+        <input id="search-input" type="text" required />
+        <button id="search-button">Search</button>
+        <button id="clear-button">Clear</button>
+      </div>
+      <div id="search-results">
+        <div id="search-1">
+          <span id="pokemon-name"></span>
+          <span id="pokemon-id"></span>
+        </div>
+        <div id="search-2">
+          <span id="weight"></span>
+          <span id="height"></span>
+        </div>
+        <div id="poke-img"></div>
+        <div id="types"></div>
+      </div>
+
+      <div id="stats">
+        <table>
+          <thead>
+            <tr>
+              <th>Base</th>
+              <th>Stats</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HP:</td>
+              <td id="hp"></td>
+            </tr>
+            <tr>
+              <td>Attack:</td>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <td>Defense:</td>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <td>Special Attack:</td>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <td>Special Defense:</td>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <td>Speed:</td>
+              <td id="speed"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
