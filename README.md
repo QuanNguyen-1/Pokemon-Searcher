@@ -1,4 +1,2 @@
 # Pokemon-Searcher
-A website that shows pokemon information.
-
-A website using Javascript, HTML, and CSS to allow users to search for a pokemon based on their name or id number. Users can get general information like weight, height, type, and stats by searching for the specific pokemon. The website makes use of PokeAPI to retrieve the pokemon information.
+A website using Javascript, HTML, and CSS to allow users to search for a pokemon based on their name or id number. Users can get general information like weight, height, type, and stats by searching for the specific pokemon. Searching for the specific pokemon also returns a picture of the selected pokemon and a table with the stats for HP, Attack, Defense, Special Attack, Special Defense, and Speed. The website makes use of PokeAPI to retrieve the pokemon information.
